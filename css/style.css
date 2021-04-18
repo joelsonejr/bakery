@@ -1,0 +1,449 @@
+/* ========================= IMPORTS ==========================*/
+
+/* font: Great Vibes. (general purpouse)*/
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+/* font: Dancing Script. (menus)*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/* menu font: EB Garamond medium 500 italic*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
+
+/* body font: OpenSans regular 400*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+/* =========================== BODY =============================*/
+body {
+    background-color: #F0F2F2;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    box-sizing: border-box;
+    margin: auto;
+    width: 70%;
+    overflow: hidden;
+}
+
+/* ========================= HEADER ==============================  */
+header {
+    background-color: #F0F2F2;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 150px;
+    padding: 0px;
+    position: fixed;
+    text-align: center;
+    width: 70%;
+    /* must match container width */
+}
+
+.logo {
+    position: absolute;
+    left: 20%;
+    top: 5%;
+}
+
+.logo img {
+    height: 120px;
+}
+
+/* ======================= NAVIGATION MENU ========================== */
+.nav {
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    border-radius: 5px;
+    color: #400101;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    float: left;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+.menu li:hover {
+    box-shadow: 0 3px #8C4C3E;
+}
+
+.menu li:active {
+    box-shadow: 0 2px #D99982;
+    transform: translateY(4px);
+}
+
+.socialMedia {
+    color: #400101;
+    float: right;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.1em;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+.socialMedia li {
+    margin-bottom: 10px;
+}
+
+.instagram {
+    list-style-image: url("../assets/instagram.png");
+}
+
+.facebook {
+    list-style-image: url("../assets/facebook.png");
+}
+
+.telephone {
+    list-style-image: url("../assets/telephone.png");
+}
+
+.whatsApi {
+    color: #400101;
+    text-decoration: none;
+}
+
+.whatsapp {
+    list-style-image: url("../assets/whatsapp.png");
+}
+
+/* ============== MAIN PORTION OF THE PAGE ====================*/
+main {
+    margin: auto;
+    margin-top: 150px;
+    width: 99%;
+}
+
+/*======================= PRODUCTS ============================*/
+.bakery {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    height: 500px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.about {
+    background-image: url("../assets/about.jpg");
+}
+
+#store {
+    height: 100px;
+}
+
+.vitrine {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.breads {
+    background-image: url("../assets/bread.jpg");
+}
+
+.products {
+    color: #FFF;
+    font-family: 'EB Garamond', serif;
+    float: left;
+    font-size: 4em;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    padding: 0.3em;
+}
+
+.products p {
+    margin: 0;
+}
+
+.prodDesc {
+    background-color: rgba(64, 1, 1, 0.7);
+    clear: left;
+    float: left;
+    height: 15em;
+    margin-left: 10em;
+    margin-top: 1em;
+    padding: 1em;
+    width: 25em;
+}
+
+.prodDesc p {
+    color: #FFF;
+    font-size: 1em;
+    margin: 0;
+    margin-top: 0.3em;
+}
+
+.cakes {
+    background-image: url("../assets/cakes.jpg");
+    background-position-y: center;
+}
+
+.snacks {
+    background-image: url("../assets/snacks.jpg");
+}
+
+/*======================== FOOTER ============================  */
+footer {
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'EB Garamond', serif;
+    margin-bottom: 30px;
+    overflow: hidden;
+    padding: 5px 20px 15px 20px;
+    text-shadow: #000;
+    width: 100%;
+}
+
+.map {
+    background-color: rgba(64, 1, 1, 0.3);
+    border-radius: 20px;
+    float: right;
+    height: 300px; /* 300px recommended by google for this map size*/
+    margin-right: 20em;
+    margin-top: 2em;
+    padding: 0.5em;
+    padding-bottom: 0.2em;
+    width: 400px; /* 400px recommended by google for this map size*/
+}
+
+.map iframe {
+    border-radius: 20px;
+}
+
+.visit {
+    color: #400101;
+    float: right;
+    margin-right: 40px;
+    margin-top: 2.5em;
+    padding: 1em;
+}
+
+.visit h4 {
+    font-size: 2em;
+    margin: 0;
+    margin-top: 40px;
+}
+
+.address {
+    font-size: 1.5em;
+    list-style: none;
+    padding: 0;
+}
+
+.address li {
+    margin-bottom: 1em;
+}
+
+/* ===================MEDIA QUERIES=========================== */
+@media only screen and (max-width:1750px) {
+     /* TODO: adjust itens position inside footer */
+    /* TODO: ajust top menu items */
+    body {
+        background-color: yellow;
+    }
+}
+
+@media only screen and (max-width:1065px) {
+    /* TODO: adjust itens position inside footer */
+    /* TODO: ajust top menu items */
+    body {
+        background-color: orange;
+    }
+
+    /* HEADER ============  */
+    
+
+    .logo{
+        left: 5%;
+    }
+
+    .nav {
+        margin-top: 30px;
+    }
+
+    .menu li{
+        margin-right: 0;
+    }
+
+    .socialMedia{
+        font-size: 0.6em;
+        margin-top: 25px;
+        margin-right: 20px;
+    }
+
+    .socialMedia li{
+        margin-bottom: 20px;
+    }
+
+    /* MAIN ============  */
+
+    #store {
+        height: 50px;
+    }
+
+    /* FOOTER ============  */
+
+    .map{
+        float: left;
+        margin-right: 0;
+    }
+
+    .visit{
+        margin-right: 2px;
+        padding: 0;
+    }
+}
+
+
+@media only screen and (max-width:940px) {
+    body {
+        background-color: pink;
+    }
+
+    /* HEADER ============  */
+    .nav{
+        margin-top: 2px;
+    }
+
+    .menu li{
+        float: none;
+        padding: 5px;
+    }
+
+    .menu a{
+        text-decoration: none;
+    }
+
+     /* FOOTER ============  */
+    .visit{
+        float: left;
+        margin-left: 30px;
+        width: 230px;
+    }
+
+    .map{
+        width: 316px;
+    }
+}
+
+
+@media only screen and (max-width:718px) {
+    body {
+        background-color: red;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+    /* HEADER ============= */
+    header{
+        
+        width: 90%;
+    }
+
+    .logo{
+        /* clear: both; */
+        display: block;
+        margin-left: -45px;
+        position: initial;
+        width: 90%;
+    }
+
+    .logo img{
+        height: 100px;
+    }
+    .nav{
+        display: block;
+        margin: 0px;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .menu{
+        align-self: center;
+        margin: auto;
+        margin-left: 7px;
+        overflow: hidden;
+        padding: 0;
+        width: 100%;
+
+    }
+
+    .menu li{
+        border: 2px solid #400101;
+        float: left;
+        font-size: 1.1em;
+        margin-left: 5px;
+        padding: 0;
+        width: 28%;
+    }
+
+    .socialMedia{
+        clear: both;
+    }
+
+    .socialMedia li{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .webMedia{
+        position: absolute;
+        right: 10px;
+        top: 0;
+    }
+    
+    .localMedia{
+        position: absolute;
+        right: 40px;
+        top: -25px;
+    }
+    /* PRODUCTS ========== */
+    #store{
+        height: 20px;
+    }
+
+    /* ==========MAIN=========== */
+    .products{
+        font-size: 3em;
+    }
+
+    .prodDesc{
+        font-size: 1em;
+        height:fit-content;
+        margin-left: 1em;
+        margin-top: 0;
+        width: 85%;
+    }
+
+    /* ===========FOOTER============ */
+    footer{
+        text-align: center;
+    }
+
+    .map{
+        float: none;
+    }
+
+    .visit{
+        margin-top: 1.5em;
+    }
+    .visit h4{
+        margin-top: 0;
+    }
+}
+
+
+
