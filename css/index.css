@@ -1,5 +1,8 @@
-/* TODO: fix social media and contacts menu position 
-    TODO: look, into CSS tricks website, for a better suspended menu.
+/* TODO: adjust main text, and images.
+   TODO: set tooltip for telephon icon (telephone number)
+   TODO: set tooltip and link for the other menu buttons.
+   TODO: define style for the products classes.
+   TODO: adjust icon size for social media.
 
 */
 
@@ -20,26 +23,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 
-/* RESETS */
-
+/* :::: RESETS :::: */
 * {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
+/* :::: WHOLE PAGE :::: */
 .container{
     margin: auto;
+    position: relative;
     width: 360px;
 }
 
+/* :::: HEADER :::: */
 header{
+    background: #FFF;
     overflow:hidden;
-    background: red;
+    padding: 10px;
+    position: fixed;
+    width: 360px;
+    
 }
 .logo{
     display: inline;
-    /* width: fit-content; */
+    width: 100px;
 }
 
 .logo img{
@@ -47,19 +56,64 @@ header{
     width: 80px;
 }
 
+/* :::: NAV :::: */
+nav{
+    box-sizing: border-box;
+
+    float: right;
+    margin-top: 25px;
+    padding: 5px;
+    width: 250px;
+}
+
+.media{
+    font-size: 12px;
+}
 
 .media li{
-    float: right;
+    float: left;
+    margin-left: 30px;
 }
 
-.contact{
-    clear: right;
+.media img{
+    width: 20px;
 }
 
-.contact li{
-    float: right;
-}
-
+/* :::: MAIN :::: */
 main{
     clear: both;
+    padding: 5px;
+    padding-top: 5rem;
+
+}
+
+.bakeryServices{
+    margin-top: 2rem;
+}
+
+.products{
+
+}
+
+.productDescription{
+
+}
+
+ /* :::: FOOTER :::: */
+footer{
+    box-sizing: border-box;
+    margin-top: 2rem;
+    padding: 10px;
+}
+
+.map{
+    display: inline-block;
+    width: 45%;
+}
+
+.address{
+    float: right;
+    font-size: 14px;
+    margin: 20px;
+    margin-top: 40px;
 }
