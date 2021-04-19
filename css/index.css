@@ -1,3 +1,10 @@
+/* TODO: fix social media and contacts menu position 
+    TODO: look, into CSS tricks website, for a better suspended menu.
+
+*/
+
+
+
 /* ========================= IMPORTS ==========================*/
 
 /* font: Great Vibes. (general purpouse)*/
@@ -16,6 +23,43 @@
 /* RESETS */
 
 * {
+    list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.container{
+    margin: auto;
+    width: 360px;
+}
+
+header{
+    overflow:hidden;
+    background: red;
+}
+.logo{
+    display: inline;
+    /* width: fit-content; */
+}
+
+.logo img{
+    display: inline-block;
+    width: 80px;
+}
+
+
+.media li{
+    float: right;
+}
+
+.contact{
+    clear: right;
+}
+
+.contact li{
+    float: right;
+}
+
+main{
+    clear: both;
 }
