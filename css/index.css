@@ -1,7 +1,7 @@
-/* TODO: adjust main text, and images.
+/* 
    TODO: set tooltip for telephon icon (telephone number)
    TODO: set tooltip and link for the other menu buttons.
-   TODO: define style for the products classes.
+  
    TODO: adjust icon size for social media.
 
 */
@@ -87,17 +87,51 @@ main{
 
 }
 
-.bakeryServices{
-    margin-top: 2rem;
-}
-
 .products{
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 2rem;
+    padding: 30px;
+    padding-left: 10px;
 }
 
+.cardTitle{
+    font-family: 'EB Garamond', sans-serif;
+    font-size: 2rem; 
+    margin-left: 0;
+}
+/* :::BACKGROUND FOR EACH PRODUCT::: */
+.bakery{
+    background-image: url("../assets/about.jpg");
+}
+
+.bread{
+    background-image: url("../assets/bread.jpg");
+    clear: both;
+}
+
+.cakes{
+    background-image: url("../assets/cakes.jpg");
+    clear: both;
+}
+
+.snacks{
+    background-image: url("../assets/snacks.jpg");
+    clear: both;
+}
 .productDescription{
-
+    background-color: rgba(64, 1, 1, 0.7);
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 5rem;
+    margin-left: 15px;
+    margin-top: 40px;
+    padding: 15px;
 }
+
 
  /* :::: FOOTER :::: */
 footer{
