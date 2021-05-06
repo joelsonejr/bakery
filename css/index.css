@@ -1,0 +1,155 @@
+/* 
+   TODO: set tooltip for telephon icon (telephone number)
+   TODO: set tooltip and link for the other menu buttons.
+  
+   TODO: adjust icon size for social media.
+
+*/
+
+
+
+/* ========================= IMPORTS ==========================*/
+
+/* font: Great Vibes. (general purpouse)*/
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+/* font: Dancing Script. (menus)*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/* menu font: EB Garamond medium 500 italic*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
+
+/* body font: OpenSans regular 400*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+/* :::: RESETS :::: */
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* :::: WHOLE PAGE :::: */
+.container{
+    margin: auto;
+    position: relative;
+    width: 22.5rem;
+}
+
+/* :::: HEADER :::: */
+header{
+    background: #FFF;
+    /* overflow:hidden; */
+    padding: 0.625rem;
+    position: fixed;
+    width: 22.5rem;
+    
+}
+
+.logo{
+    display: block;
+    width: 6.25rem;
+}
+
+.logo img{
+    display: block;
+    margin-left: 3rem;
+    width: 15rem;
+}
+
+/* :::: NAV :::: */
+nav{
+    margin: auto;
+    margin-top: 1.5625rem;
+    padding: 0.3125rem;
+    width: 15.625rem;
+}
+
+.media{
+    font-size: 0;
+    margin: auto;
+}
+
+.media li{
+    float: left;
+    margin-left: 0.3125rem;
+}
+
+.media img{
+    margin-left: 0.6rem;
+    width: 2.8rem;
+}
+
+/* :::: MAIN :::: */
+main{
+    clear: both;
+    padding: 0.3125rem;
+    padding-top: 16rem;
+
+}
+
+.products{
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1.5625rem;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 2rem;
+    padding: 1.875rem;
+    padding-left: 0.625rem;
+}
+
+.cardTitle{
+    font-family: 'EB Garamond', sans-serif;
+    font-size: 2rem; 
+    margin-left: 0;
+}
+/* :::BACKGROUND FOR EACH PRODUCT::: */
+.bakery{
+    background-image: url("../assets/about.jpg");
+}
+
+.bread{
+    background-image: url("../assets/bread.jpg");
+    clear: both;
+}
+
+.cakes{
+    background-image: url("../assets/cakes.jpg");
+    clear: both;
+}
+
+.snacks{
+    background-image: url("../assets/snacks.jpg");
+    clear: both;
+}
+.productDescription{
+    background-color: rgba(64, 1, 1, 0.7);
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 5rem;
+    margin-left: 0.9375rem;
+    margin-top: 2.5rem;
+    padding: 0.9375rem;
+}
+
+
+ /* :::: FOOTER :::: */
+footer{
+    margin-top: 2rem;
+    padding: 0.625rem;
+}
+
+.map{
+    display: inline-block;
+    width: 45%;
+}
+
+.address{
+    float: right;
+    font-size: 0.875rem;
+    margin: 1.25rem;
+    margin-top: 2.5rem;
+}
