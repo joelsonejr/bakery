@@ -28,74 +28,77 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* :::: WHOLE PAGE :::: */
 .container{
     margin: auto;
     position: relative;
-    width: 360px;
+    width: 22.5rem;
 }
 
 /* :::: HEADER :::: */
 header{
     background: #FFF;
-    overflow:hidden;
-    padding: 10px;
+    /* overflow:hidden; */
+    padding: 0.625rem;
     position: fixed;
-    width: 360px;
+    width: 22.5rem;
     
 }
+
 .logo{
-    display: inline;
-    width: 100px;
+    display: block;
+    width: 6.25rem;
 }
 
 .logo img{
-    display: inline-block;
-    width: 80px;
+    display: block;
+    margin-left: 3rem;
+    width: 15rem;
 }
 
 /* :::: NAV :::: */
 nav{
-    box-sizing: border-box;
-
-    float: right;
-    margin-top: 25px;
-    padding: 5px;
-    width: 250px;
+    margin: auto;
+    margin-top: 1.5625rem;
+    padding: 0.3125rem;
+    width: 15.625rem;
 }
 
 .media{
-    font-size: 12px;
+    font-size: 0;
+    margin: auto;
 }
 
 .media li{
     float: left;
-    margin-left: 30px;
+    margin-left: 0.3125rem;
 }
 
 .media img{
-    width: 20px;
+    margin-left: 0.6rem;
+    width: 2.8rem;
 }
 
 /* :::: MAIN :::: */
 main{
     clear: both;
-    padding: 5px;
-    padding-top: 5rem;
+    padding: 0.3125rem;
+    padding-top: 16rem;
 
 }
 
 .products{
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 25px;
+    border-radius: 1.5625rem;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     margin-top: 2rem;
-    padding: 30px;
-    padding-left: 10px;
+    padding: 1.875rem;
+    padding-left: 0.625rem;
 }
 
 .cardTitle{
@@ -127,17 +130,16 @@ main{
     float: left;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 5rem;
-    margin-left: 15px;
-    margin-top: 40px;
-    padding: 15px;
+    margin-left: 0.9375rem;
+    margin-top: 2.5rem;
+    padding: 0.9375rem;
 }
 
 
  /* :::: FOOTER :::: */
 footer{
-    box-sizing: border-box;
     margin-top: 2rem;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 .map{
@@ -147,7 +149,7 @@ footer{
 
 .address{
     float: right;
-    font-size: 14px;
-    margin: 20px;
-    margin-top: 40px;
+    font-size: 0.875rem;
+    margin: 1.25rem;
+    margin-top: 2.5rem;
 }
